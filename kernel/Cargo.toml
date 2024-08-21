@@ -1,7 +1,16 @@
 [package]
-name = "limine-rust-template"
+name = "kernel"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
 limine = "0.2.0"
+
+[dependencies.framework]
+package = "good-os-framework"
+version = "0.5.1"
+features = ["smp"]
+
+[dependencies.log]
+version = "0.4.22"
+default-features = false
