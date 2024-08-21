@@ -1,6 +1,6 @@
 use argh::FromArgs;
 use std::process::Command;
-use std::{collections::BTreeMap, fs::File, io, path::Path};
+use std::{collections::BTreeMap, path::Path};
 
 mod gz_builder;
 mod image_builder;

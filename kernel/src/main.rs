@@ -1,9 +1,6 @@
 #![no_std]
 #![no_main]
 
-use core::arch::asm;
-
-use limine::request::FramebufferRequest;
 use limine::BaseRevision;
 
 /// Sets the base revision to the latest revision supported by the crate.
